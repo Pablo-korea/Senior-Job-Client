@@ -1,0 +1,61 @@
+{
+    "name": "senior-job-client",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "@types/date-fns": "^2.6.0",
+        "@types/react-date-range": "^1.4.4",
+        "@types/styled-components": "^5.1.26"
+    },
+    "dependencies": {
+        "@craco/craco": "^7.1.0",
+        "@emotion/react": "^11.11.0",
+        "@emotion/styled": "^11.11.0",
+        "@mui/material": "^5.13.2",
+        "@mui/styled-engine-sc": "^5.12.0",
+        "@mui/x-date-pickers": "^6.5.0",
+        "@testing-library/jest-dom": "^5.14.1",
+        "@testing-library/react": "^13.0.0",
+        "@testing-library/user-event": "^13.2.1",
+        "@reduxjs/toolkit": "^1.9.5",
+        "axios": "^1.4.0",
+        "craco-alias": "^3.0.1",
+        "dayjs": "^1.11.7",
+        "react": "^18.2.0",
+        "react-date-range": "^1.4.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.11.2",
+        "react-scripts": "5.0.1",
+        "reset-css": "^5.0.1",
+        "styled-components": "^6.0.0-rc.1",
+        "styled-reset": "^4.4.7",
+        "typescript": "^5.0.4",
+        "web-vitals": "^2.1.0"
+    },
+    "scripts": {
+        "start": "craco start",
+        "build": "craco build",
+        "test": "craco test",
+        "eject": "craco eject",
+        "clean": "rm -rf node_modules && rm -rf yarn.lock"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "proxy": "http://43.202.30.241:8080"
+}
